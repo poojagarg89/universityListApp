@@ -1,0 +1,29 @@
+.subscribe-main {
+  .subscribe-input-details {
+    text-align: center;
+    .subscribe-input {
+      width: 350px;
+    }
+    .subscribe-error-msg {
+      text-align: center;
+    }
+  }
+  .subscribe-btn-section {
+    text-align: center;
+    .subscribe-btn,
+    .subscribe-cancel-btn {
+      color: #fff;
+      background: blue;
+      padding: 10px 30px;
+      border: 1px solid blue;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .subscribe-cancel-btn {
+      background: #f2edd7ff;
+      border: 1px solid #f2edd7ff;
+      color: #1c1c1c;
+      margin-left: 15px;
+    }
+  }
+}

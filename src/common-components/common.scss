@@ -1,0 +1,69 @@
+.input-comp {
+  margin-bottom: 20px;
+  .MuiOutlinedInput-input {
+    padding: 10px;
+  }
+  .MuiOutlinedInput-root {
+    height: 48px;
+  }
+  .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    margin-top: -2px;
+  }
+}
+.header-main {
+  .university-heading {
+    display: flex;
+    margin: 25px 40px;
+    align-items: center;
+    justify-content: space-between;
+    .university-header-section {
+      display: flex;
+      align-items: center;
+    }
+    .university-text {
+      margin: 0;
+      padding-left: 10px;
+      color: blue;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .university-icon {
+      color: blue;
+      font-size: 60px;
+    }
+  }
+  .login-logout-btn {
+    background: blue;
+    padding: 10px 30px;
+    color: #fff;
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .user-section {
+    display: flex;
+    align-items: center;
+    .user-name {
+      font-size: 18px;
+      font-weight: bold;
+      color: blue;
+      padding-right: 15px;
+    }
+  }
+}
+
+.card-main {
+  background: #cccccc;
+  padding: 20px;
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  .card-header {
+    font-size: 18px;
+    color: #646464;
+    font-weight: bold;
+    padding-top: 15px;
+  }
+}

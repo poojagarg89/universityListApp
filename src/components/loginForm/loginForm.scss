@@ -1,0 +1,79 @@
+.university-login-details {
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  .university-image-form {
+    display: flex;
+    .university-login-img {
+      width: 780px;
+    }
+    .login-details-form {
+      margin: 0 auto;
+      font-family: Arial, Helvetica, sans-serif;
+      .login-header-text {
+        font-size: 30px;
+        color: #566573;
+      }
+      .login-sub-text {
+        padding: 8px 0px 25px 0px;
+        font-size: 15px;
+        color: #566573;
+      }
+
+      .login-button,
+      .create-account-button {
+        background-color: blue;
+        color: #f2edd7ff;
+        border-radius: 20px;
+        width: 135px;
+        margin-top: 10px;
+        border: 1px solid blue;
+        padding: 10px 0px;
+        font-size: 14px;
+        cursor: pointer;
+        margin-bottom: 15px;
+      }
+      .create-account-button {
+        margin-left: 15px;
+        background-color: #f2edd7ff;
+        color: #1c1c1c;
+        border: 1px solid #f2edd7ff;
+      }
+
+      .pass-success-message {
+        width: 350px;
+        margin-top: 20px;
+        background-color: #d8fce6;
+        border: 1px solid #a3c293;
+        color: #1a531b;
+        border-radius: 8px;
+        padding: 10px;
+        .message-header {
+          margin-bottom: 5px;
+        }
+      }
+
+      .loginId-input,
+      .password-input {
+        width: 300px;
+      }
+      .login-error-msg {
+        margin: '0 60px 10px';
+      }
+      .register-text {
+        text-align: center;
+        font-size: 16px;
+        color: green;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+    }
+    .login-here-text {
+      color: blue;
+      font-weight: bold;
+      padding-left: 5px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+  }
+}
